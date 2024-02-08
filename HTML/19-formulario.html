@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+
+<body>
+
+
+    <center><h1>Formulários</h1></center>
+    <form action="processador.php" method="post">
+        <fieldset>
+            <legend>Formulário de Login</legend>
+            <label for="campo_nome">Usuário:</label>
+            <br />
+            <input type="text" name="nome" id="campo_nome" required>
+            <br />
+            <label for="campoEmail">E-mail:</label>
+            <br />
+            <input type="email" name="email" id="campoEmail" required>
+            <br />
+            <label for="campoSenha">Senha:</label>
+            <br />
+            <input type="password" name="senha" id="campoSenha" required>
+            <br />
+
+            <br />
+            <input type="submit" value="Enviar">
+        </fieldset>
+
+    </form>
+</body>
+
+</html>

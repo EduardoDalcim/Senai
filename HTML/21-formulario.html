@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <form action="processador.php" method="post">
+        <legend>Formulário</legend>
+        <fieldset>
+
+            <label for="campoNome">Nome:</label> <br>
+            <input type="text" name="Nome" id="campoNome" value="Nome Sobrenome" required> <br>
+
+            <label for="campoEmail">E-mail:</label><br>
+            <input type="email" name="E-mail" id="campoEmail" value="*******@******.***" required><br>
+
+            <label for="campoTelefone">Telefone:</label><br>
+            <input type="tel" name="Telefone" id="campoTelefone" value="(00)0000-0000" required><br><br>
+
+            <select name="Curso" id="campoCurso">
+                <option value="presencial">Presencial</option>
+                <option value="semi-presencial">Semi-Presencial</option>
+                <option value="ead">EAD</option>
+                <option value="presencial" selected>Selecione o curso</option>
+
+            </select>
+            <br>
+            <br>
+
+
+            <label for="campoMensagem">Mensagem:</label><br><br>
+            <textarea name="Mensagem" id="campoMensagem" cols="40" rows="5" required></textarea><br>
+
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar Tudo">
+        </fieldset>
+
+    </form>
+</body>
+
+</html>

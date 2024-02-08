@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a href="25-index.html">|Home|</a>
+            <a href="25-tabela.html">|Porte|</a>
+            <a href="25-fotos.html">|Fotos|</a>
+            <a href="25-listas.html">|Lista|</a>
+            <a href="25-video.html">|Vídeo|</a>
+            <a href="25-formulario.html">|Adote um Cão|</a>
+        </nav>
+
+        <h1>Adote um Cão Amigos para Sempre</h1>
+
+
+        <img src="imagens/caoadotado.jpg" alt="Cão Piscando">
+
+    </header>
+
+    <form action="processador.php" method="post">
+        <legend>Ficha de Adoção</legend>
+        <fieldset>
+        <label for="campoNome">Nome</label><br>
+        <input type="text" name="Nome" id="campoNome" required ><br>
+        
+        <label for="campoTelefone">Telefone</label><br>
+        <input type="tel" name="telefone" id="campoTelefone" required ><br>
+        
+        
+        <label>Qual cão você deseja adotar?</label><br>
+
+        <input type="radio" name="adotado" id="pitbull" required>Pitbull <br>
+        <input type="radio" name="adotado" id="foxPaulistinha" required>Fox Paulistinha <br>
+        <input type="radio" name="adotado" id="Poodle" required>Poodle <br>
+        <input type="radio" name="adotado" id="viraLata" required>Vira-Lata <br>
+
+        <Label>Quero adotar mais de um cão</Label> <br>
+        <input type="checkbox" name="raca" id="pitbull">Pitbull <br>
+        <input type="checkbox" name="raca" id="FoxPaulistinha">Fox Paulistinha <br>
+        <input type="checkbox" name="raca" id="Poodle">Poodle <br>
+        <input type="checkbox" name="raca" id="ViraLata">Vira-Lata <br>
+        
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar Tudo">
+    
+
+    </fieldset>
+        
+
+    </form>
+
+
+
+</body>
+
+</html>
